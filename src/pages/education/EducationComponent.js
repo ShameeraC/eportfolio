@@ -37,7 +37,7 @@ class Education extends Component {
                 <img
                   src={require("../../assests/images/educationimg.svg")}
                   alt=""
-                  height={200}
+                  height={250}
                 />
               }
             </div>

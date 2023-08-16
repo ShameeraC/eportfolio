@@ -4,9 +4,9 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid #d9dbdf;
+  border: 1px solid #054b99;
   border-radius: 5px;
-  box-shadow: 5px 5px 5px #d9dbdf;
+  box-shadow: 5px 5px 5px #054b99;
   margin-bottom: 30px;
   flex: 0 0 30%;
 }

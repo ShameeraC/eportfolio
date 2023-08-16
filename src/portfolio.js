@@ -24,8 +24,8 @@ const greeting = {
   //nickname: "layman_brother",
   //subTitle:
   //"A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  //resumeLink:
-  //"https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1I7P1WqISAL5MQM8fIQ2iH-pXcJUyXExK/view?usp=sharing",
   //portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ShameeraC",
 };
@@ -386,22 +386,32 @@ const degrees = {
       alt_name: "UCT",
       duration: "2020 - present",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ GPA (2023 Semester 1): 75.17",
+        "⚡ Leadership: Women in Computer Science(WICS) UCT Treasurer(2021); Fuller Hall Flat Representative(2020)",
+        "⚡ Student Work: Electrical Engineering Design Principles Tutor(2023); Fuller Hall Student Front Desk Assistant(2022)",
+        "⚡ Other Activities: Electrical Engineering Mentor(2022); Fuller Hall - Orientation Week(2021) & Alumni and Fundraising(2020) Sub-Committees",
+        "⚡ Awards: UCT Plus Gold Award(2021); Golden Key International Honour Society Member(2022)",
       ],
       website_link: "http://iiitk.ac.in",
     },
+  ],
+};
+
+export const school = {
+  school: [
     {
       title: "Redhill High School",
       subtitle: "National Senior Certificate (IEB)",
-      logo_path: "redhill_logo.jpg",
+      logo_path: "redhill_logo.png",
       alt_name: "Redhill",
       duration: "2015 - 2019",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+        "⚡ Matriculated with 7 distinctions and an average of 91% (top 7 subjects). Placed on the IEB Commendable Achievers list.",
+        "⚡ Leadership: First Aid Captain(2019); Head of Peer Support and Orientation(2018/19); Debating Captain(2017/18; 2018/19); Interact Board(2017/18)",
+        "⚡ Trophies: Cameron Armstrong Trophy for Business Studies; Noel Davis Trophy for Service",
+        "⚡ Honours Blazer: First Aid",
+        "⚡ Full Colours: Academic(re-awarded); Accounting Olympiad; the Afrikaans Olympiad; Interact",
+        "⚡ Scrolls: Debating",
       ],
       website_link: "https://www.indiana.edu/",
     },
@@ -411,117 +421,46 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Machine Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "stanford_logo.png",
+      title: "MATLAB Onramp",
+      subtitle: "",
+      logo_path: "matlab.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-      alt_name: "Stanford University",
-      color_code: "#8C151599",
-    },
-    {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
-      subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
-      color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
+        "https://matlabacademy.mathworks.com/progress/share/certificate.html?id=6a183543-4b86-423e-bc65-2ebbfb7a9ae9&",
+      alt_name: "MATLAB",
+      color_code: "#FFFFFF",
     },
   ],
 };
 
-// Experience Page
+// Projects Page
+const projectsHeader = {
+  title: "Projects",
+  description:
+    "Throughout my degree, I have completed several projects that have fostered a love for problem solving.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const publicationsHeader = {
+  title: "Publications",
+  description:
+    "During my third year at the University of Cape Town, I published my first paper alongside a friend and fellow student and a lecturer. I hope to publish more papers going forward.",
+  avatar_image_path: "projects_image.svg",
+};
+
+const publications = {
+  data: [
+    {
+      id: "979-8-3503-9834-2",
+      name:
+        "Embedded Encryption and Compression Solution for Resource-Constrained ARM Microcontrollers",
+      createdAt: "2023-04-27",
+      description:
+        "Investigatation of compression and encryption algorithms for use in resource-constrained systems.",
+      url: "https://ieeexplore.ieee.org/document/10109050",
+    },
+  ],
+};
+
 const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
@@ -671,73 +610,13 @@ const experience = {
   ],
 };
 
-// Projects Page
-const projectsHeader = {
-  title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
-  avatar_image_path: "projects_image.svg",
-};
-
-const publications = {
-  data: [
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-    {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
-      url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    },
-  ],
-};
-
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Please feel free to reach out via LinkedIn or email. All my projects can be viewed on my GitHub.",
   },
   blogSection: {
     title: "Blogs",

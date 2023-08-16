@@ -23,11 +23,11 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  /* margin-bottom: 5px; */
 }
 .button-greeting-div {
   display: flex;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .greeting-text {
@@ -54,7 +54,8 @@
 
 .greeting-image-div > * {
   max-width: 100%;
-  height: auto;
+  /* height: 75%; */
+  padding-left: 5%;
 }
 
 /* Media Query */

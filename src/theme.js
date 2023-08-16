@@ -199,7 +199,7 @@ export const myTheme = {
   body: "#BFDDFD",
   text: "#231942",
   expTxtColor: "#000a12",
-  highlight: "#E0B1CB",
+  highlight: "#80ABFA",
   dark: "#00072D",
   secondaryText: "#655E7A",
   imageHighlight: "#BE95C4",
